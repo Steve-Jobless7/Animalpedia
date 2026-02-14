@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interesting Facts | Natures Nest</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            background-color: #f8fbff;
+        }
+
+        .fact-card {
+            transition: 0.4s ease;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .fact-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .fact-card img {
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .section-title {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Natures Nest</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="mammals.html">Mammals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reptiles.html">Reptiles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="amphibians.html">Amphibians</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="birds.html">Birds</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Fish.html">Fishes</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">
+                            Explore more
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="videos.html">Videos</a></li>
+                            <li><a class="dropdown-item" href="facts.html">Interesting facts</a></li>
+                            <li><a class="dropdown-item active" href="weird.html">Weird but true</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <section class="container mt-5 text-center">
+        <h2 class="section-title">Amazing Animal Facts 🌍</h2>
+        <p class="mt-3">
+            Explore fascinating wildlife facts from around the world!
+        </p>
+    </section>
+
+    <!-- FACTS WITH IMAGES -->
+    <section class="container mt-5">
+        <div class="row g-4">
+
+            <!-- FACT TEMPLATE REPEATED 20 TIMES -->
+
+            <!-- 1 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1552410260-0fd9b577afa6" class="card-img-top">
+                    <div class="card-body">
+                        <h5> Cheetahs Can’t Roar</h5>
+                        <p>Cheetahs chirp and purr instead of roaring like lions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1557053964-937650b63311" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Elephants Feel Vibrations</h5>
+                        <p>They communicate through ground vibrations using low sounds.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1544551763-cede0c35b7f6" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Octopus Intelligence</h5>
+                        <p>They solve puzzles and escape from tanks!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1501706362039-c6e8093f8c99" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Penguins Propose</h5>
+                        <p>Male penguins give pebbles to impress females.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1560275619-4662e36fa65c" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Sharks Are Ancient</h5>
+                        <p>Sharks lived before trees existed on Earth.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Sloths Hold Breath</h5>
+                        <p>Sloths can hold their breath for 40 minutes underwater.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 7 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Blue Whale Heart</h5>
+                        <p>Their heart is as large as a small car.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 8 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1473186578172-c141e6798cf4" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Butterflies Taste with Feet</h5>
+                        <p>They taste food by standing on it.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 9 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1508675801627-066ac4346a5a" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Giraffes Sleep Less</h5>
+                        <p>They sleep only about 5–30 minutes daily.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 10 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Wombat Cube Poop</h5>
+                        <p>Wombats produce cube-shaped droppings.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Continue Same Pattern for 11–20 -->
+
+            <!-- 11 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" class="card-img-top">
+                    <div class="card-body">
+                        <h5>⃣ Dolphins Have Names</h5>
+                        <p>They use unique whistles like names.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 12 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Frogs Can Freeze</h5>
+                        <p>Some frogs freeze and survive winter.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 13 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Kangaroos Move Forward Only</h5>
+                        <p>They cannot walk backwards.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 14 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Bats Can Fly</h5>
+                        <p>They are the only flying mammals.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 15 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1474511320723-9a56873867b5" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Polar Bear Skin</h5>
+                        <p>Polar bears have black skin under white fur.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 16 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1501706362039-c6e8093f8c99" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Ostrich Eyes</h5>
+                        <p>Their eyes are bigger than their brains.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 17 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Turtles Breathe Differently</h5>
+                        <p>Some turtles absorb oxygen underwater.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 18 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Ant Strength</h5>
+                        <p>Ants can lift 50 times their body weight.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 19 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1444464666168-49d633b86797" class="card-img-top">
+                    <div class="card-body">
+                        <h5> Hummingbirds Fly Backwards</h5>
+                        <p>The only birds capable of true backward flight.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 20 -->
+            <div class="col-md-6">
+                <div class="card fact-card shadow h-100">
+                    <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131" class="card-img-top">
+                    <div class="card-body">
+                        <h5> Sea Otters Hold Hands</h5>
+                        <p>They hold hands while sleeping so they don't drift away.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center text-lg-start text-dark mt-5" style="background-color: #e3f2fd;">
+        <div class="container p-4">
+            <div class="text-center">
+                © 2026 <strong>Natures Nest</strong> | All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
